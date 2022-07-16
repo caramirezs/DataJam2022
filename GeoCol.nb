@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    529820,      10921]
-NotebookOptionsPosition[    528553,      10891]
-NotebookOutlinePosition[    528952,      10907]
-CellTagsIndexPosition[    528909,      10904]
+NotebookDataLength[    529894,      10923]
+NotebookOptionsPosition[    528626,      10893]
+NotebookOutlinePosition[    529025,      10909]
+CellTagsIndexPosition[    528982,      10906]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -10775,7 +10775,7 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{
-          RowBox[{"Opacity", "@", "0.5"}], ",", 
+          RowBox[{"Opacity", "@", "1"}], ",", 
           RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "\[IndentingNewLine]", 
           RowBox[{"Evaluate", "@", 
            RowBox[{"MapThread", "[", "\[IndentingNewLine]", 
@@ -10828,8 +10828,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.866838819768665*^9, 3.8668388200916996`*^9}, {
   3.8668388526323166`*^9, 3.8668388685594635`*^9}, {3.866838902540034*^9, 
   3.86683894984669*^9}, {3.866838996718022*^9, 3.866838996829831*^9}, {
-  3.866839039536912*^9, 3.866839097183431*^9}},
- CellLabel->"In[63]:=",ExpressionUUID->"06fed4b9-8e86-4751-9797-d9e5ebe8ceed"],
+  3.866839039536912*^9, 3.866839097183431*^9}, {3.866839367704961*^9, 
+  3.8668393685367813`*^9}},
+ CellLabel->"In[64]:=",ExpressionUUID->"06fed4b9-8e86-4751-9797-d9e5ebe8ceed"],
 
 Cell[BoxData[
  TagBox[
@@ -10839,7 +10840,7 @@ Cell[BoxData[
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"sin t\[IAcute]tulo\"", Typeset`specs$$ = {{
       Hold[$CellContext`a$$], 50, 147, 1}}, Typeset`size$$ = {
-    554., {410., 415.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    598., {444., 450.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`a$$ = 50}, 
@@ -10850,7 +10851,7 @@ Cell[BoxData[
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, "Body" :> GraphicsColumn[{
          GeoGraphics[{
-           Opacity[0.5], 
+           Opacity[1], 
            EdgeForm[Black], 
            Evaluate[
             MapThread[{
@@ -10872,7 +10873,7 @@ Cell[BoxData[
             Range[0, 100, 10]}]}], 
       "Specifications" :> {{$CellContext`a$$, 50, 147, 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{605., {457., 463.}},
+     ImageSizeCache->{649., {491., 497.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -10885,8 +10886,9 @@ Cell[BoxData[
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{
   3.866838950392906*^9, {3.8668389973859673`*^9, 3.866839005188069*^9}, {
-   3.866839043335096*^9, 3.8668390688063145`*^9}, 3.8668391136243143`*^9},
- CellLabel->"Out[63]=",ExpressionUUID->"e17337ac-3407-4bb4-811a-eed00f2409d0"]
+   3.866839043335096*^9, 3.8668390688063145`*^9}, 3.8668391136243143`*^9, 
+   3.866839368879863*^9},
+ CellLabel->"Out[64]=",ExpressionUUID->"44866857-cccf-4aa9-8077-3109e847a811"]
 }, Open  ]]
 },
 WindowSize->{1400, 1318},
@@ -10920,8 +10922,8 @@ Cell[186188, 4879, 716, 12, 48, "Input",ExpressionUUID->"9ac32162-407c-4ad8-bfcb
 Cell[186907, 4893, 336223, 5869, 577, "Output",ExpressionUUID->"4758a876-6cb5-4d88-bb60-259e729240d7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[523167, 10767, 2884, 64, 200, "Input",ExpressionUUID->"06fed4b9-8e86-4751-9797-d9e5ebe8ceed"],
-Cell[526054, 10833, 2483, 55, 939, "Output",ExpressionUUID->"e17337ac-3407-4bb4-811a-eed00f2409d0"]
+Cell[523167, 10767, 2933, 65, 200, "Input",ExpressionUUID->"06fed4b9-8e86-4751-9797-d9e5ebe8ceed"],
+Cell[526103, 10834, 2507, 56, 1007, "Output",ExpressionUUID->"44866857-cccf-4aa9-8077-3109e847a811"]
 }, Open  ]]
 }
 ]
